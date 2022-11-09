@@ -1,8 +1,12 @@
+.body {
+    margin: 0px;
+}
+
 .post-container{
-    margin: 0 50px 0 50px;
+    width: 70%;
+    height: 100%;
+    margin: 0px auto  0px auto;
     background-color: #fffafa;
-    justify-content: center;
-    align-items: center;
 }
 
 h1 {
@@ -16,4 +20,9 @@ h1 {
 
 .post-content{
     font-family: Open Sans;
+}
+.post-container .post{
+    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 50px;
 }
