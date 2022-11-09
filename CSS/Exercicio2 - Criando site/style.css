@@ -1,0 +1,19 @@
+.post-container{
+    margin: 0 50px 0 50px;
+    background-color: #fffafa;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: Montserrat;
+}
+
+.date {
+    font-family: Roboto;
+    color: #008080;
+}
+
+.post-content{
+    font-family: Open Sans;
+}
