@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: darkgray;
+    min-height: 100vh;
+    display: flex; /*Ativando o Flexbox*/
+    /*flex-direction: column; /* Direcionar que lado vai os items*/
+    /*column-gap: 15px; /*Espaçamento entre os items*/
+    gap: 0px 15px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;/* Centralizar os items; Ex: flex-end, flex-start, space-around*/
+}
+
+.item {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    background-color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
