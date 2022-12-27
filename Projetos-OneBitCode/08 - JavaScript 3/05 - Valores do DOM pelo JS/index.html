@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exibindo valores no DOM</title>
+  </head>
+  <body>
+    <h2>Exibindo valores no DOM</h2>
+
+    <section>
+      <hr />
+      <h3>Registre-se</h3>
+      <label for="username">Nome do usuário</label>
+      <input type="text" name="username" id="username" />
+      <br />
+      <br />
+      <label for="passwordUser">Senha</label>
+      <input type="password" name="passwordUser" id="passwordUser" />
+      <br /><br />
+      <label for="confirmPassword">Confirmar senha</label>
+      <input type="password" name="confirmPassword" id="confirmPassword" />
+      <br /><br />
+      <button onClick="register(this.parentNode)">Cadastrar</button>
+    </section>
+
+    <script src="./scripts.js"></script>
+  </body>
+</html>
