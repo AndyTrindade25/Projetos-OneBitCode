@@ -1,19 +1,17 @@
 {
-  "name": "16---utilizando-o-webpack",
+  "name": "primeiro-projeto-npm",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "author": "anderson",
   "license": "ISC",
-  "devDependencies": {
-    "webpack": "^5.75.0",
-    "webpack-cli": "^5.0.1"
-  },
   "dependencies": {
-    "dayjs": "^1.11.7"
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "style-loader": "^3.3.1"
   }
 }
